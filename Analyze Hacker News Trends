@@ -1,5 +1,3 @@
--- Hacker News Moderating
-
 SELECT user, SUM(score)
 FROM hacker_news
 GROUP BY user
